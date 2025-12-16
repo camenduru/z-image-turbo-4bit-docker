@@ -1,0 +1,34 @@
+🐣 Please follow me for new updates: https://x.com/camenduru <br />
+🔥 Please join our discord server: https://discord.gg/k5BwmmvJJU <br />
+🥳 Please become my sponsor: https://github.com/sponsors/camenduru <br />
+🍞 TostUI repo: https://github.com/camenduru/TostUI
+
+### 🍞 TostUI Local 🐋 Docker - Z-Image-Turbo (4bit)
+
+1.  **Install Docker**\
+    [Download Docker Desktop (Windows AMD64)](https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe)
+    and run it.
+
+2.  **Update the container (optional)**
+
+    ``` bash
+    docker stop tostui-z-image-turbo-4bit; docker rm tostui-z-image-turbo-4bit; docker pull camenduru/tostui-z-image-turbo-4bit
+    ```
+
+3.  **Run the container**\
+    Open Command Prompt / PowerShell and paste:
+
+    ``` bash
+    docker run --gpus all -p 3000:3000 --name tostui-z-image-turbo-4bit camenduru/tostui-z-image-turbo-4bit
+    ```
+
+    *Requires NVIDIA GPU (Min 6GB VRAM)*
+
+4.  **Open app**\
+    Go to: http://localhost:3000
+
+### 🍞 Tost UI Cloud and 🍇 RunPod Templates
+
+| Cloud | Pod | Serverless
+| --- | --- | --- |
+[![tost ui cloud](https://github.com/user-attachments/assets/65bf5a84-e01d-459a-a8e5-fece8f7f64f7)](https://ui.tost.ai) | | 
